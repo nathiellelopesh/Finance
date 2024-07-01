@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finances</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>My Finances</h1>
+  <h4>Here you can control your finances. It calculates how much money you have or owe.</h4>
+  <main>
+    <form>
+      <h2>New Transaction</h2>
+      
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="amount">How much:</label>
+      <input type="number" step="0.01" id="amount" name="amount" required>
+      <label for="date">Date of transaction:</label>
+      <input type="date" id="date" name="date" required>
+      <br><br>
+      <button>SAVE</button>
+    </form>
+    <div>
+      <h2>Account balance: <span id="balance"></span></h2>
+      <h2>Transaction History</h2>
+      <section id="transactions"></section>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>

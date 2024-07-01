@@ -1,0 +1,22 @@
+{
+  "transactions": [
+    {
+      "name": "padaria",
+      "amount": -20,
+      "date": "2020-05-02",
+      "id": "bf32"
+    },
+    {
+      "id": "ca88",
+      "name": "Job1",
+      "amount": 2500,
+      "date": "2023-04-05"
+    },
+    {
+      "id": "9ec6",
+      "name": "gym",
+      "amount": -100,
+      "date": "2024-05-14"
+    }
+  ]
+}
